@@ -23,3 +23,15 @@ const sortAnimal = animals =>
 
 
 // or
+
+function sortAnimal(animals) {
+  let newArr = [...animals].sort((a,b) => {
+    
+    if(a.numberOfLegs === b.numberOfLegs){
+      return a.name < b.name ? -1 : 1;
+    }else{
+      return a.numberOfLegs - b.numberOfLegs
+    }
+  });
+    return newArr;
+}
