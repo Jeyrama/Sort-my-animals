@@ -20,3 +20,6 @@ const compareAnimals = (a, b) =>
   
 const sortAnimal = animals =>
   animals ? animals.slice().sort(compareAnimals) : null
+
+
+// or
