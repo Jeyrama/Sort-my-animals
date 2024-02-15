@@ -11,3 +11,6 @@ sorted first by the animal's number of legs, and then by its name.
 
 If an empty list is passed in, it should return an empty list back.
 */
+
+
+// Solution
